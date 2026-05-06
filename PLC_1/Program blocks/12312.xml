@@ -7,7 +7,8 @@
         <Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
           <Section Name="Static">
             <Member Name="wad" Datatype="Real" />
-            <Member Name="xawd" Datatype="Bool" />
+            <Member Name="xawd" Datatype="Real" />
+            <Member Name="wynik" Datatype="Real" />
           </Section>
         </Sections>
       </Interface>
