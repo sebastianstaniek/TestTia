@@ -18,7 +18,7 @@
       <MemoryLayout>Optimized</MemoryLayout>
       <Name>chuj</Name>
       <Namespace />
-      <Number>5</Number>
+      <Number>8</Number>
       <ProgrammingLanguage>LAD</ProgrammingLanguage>
       <SetENOAutomatically>false</SetENOAutomatically>
     </AttributeList>
@@ -56,27 +56,141 @@
                     <Component Name="z1" />
                   </Symbol>
                 </Access>
-                <Part Name="Mul" UId="24">
+                <Access Scope="GlobalVariable" UId="24">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="25">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik2" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="26">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z1" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="27">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="28">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik2" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="29">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z1" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="30">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="31">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik2" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="32">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z1" />
+                  </Symbol>
+                </Access>
+                <Part Name="Mul" UId="33">
+                  <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+                  <AutomaticTyped Name="SrcType" />
+                </Part>
+                <Part Name="Mul" UId="34">
+                  <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+                  <AutomaticTyped Name="SrcType" />
+                </Part>
+                <Part Name="Mul" UId="35">
+                  <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+                  <AutomaticTyped Name="SrcType" />
+                </Part>
+                <Part Name="Mul" UId="36">
                   <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
                   <AutomaticTyped Name="SrcType" />
                 </Part>
               </Parts>
               <Wires>
-                <Wire UId="25">
+                <Wire UId="37">
                   <Powerrail />
-                  <NameCon UId="24" Name="en" />
+                  <NameCon UId="33" Name="en" />
                 </Wire>
-                <Wire UId="26">
+                <Wire UId="38">
                   <IdentCon UId="21" />
-                  <NameCon UId="24" Name="in1" />
+                  <NameCon UId="33" Name="in1" />
                 </Wire>
-                <Wire UId="27">
+                <Wire UId="39">
                   <IdentCon UId="22" />
-                  <NameCon UId="24" Name="in2" />
+                  <NameCon UId="33" Name="in2" />
                 </Wire>
-                <Wire UId="28">
-                  <NameCon UId="24" Name="out" />
+                <Wire UId="40">
+                  <NameCon UId="33" Name="eno" />
+                  <NameCon UId="34" Name="en" />
+                </Wire>
+                <Wire UId="41">
+                  <NameCon UId="33" Name="out" />
                   <IdentCon UId="23" />
+                </Wire>
+                <Wire UId="42">
+                  <IdentCon UId="24" />
+                  <NameCon UId="34" Name="in1" />
+                </Wire>
+                <Wire UId="43">
+                  <IdentCon UId="25" />
+                  <NameCon UId="34" Name="in2" />
+                </Wire>
+                <Wire UId="44">
+                  <NameCon UId="34" Name="eno" />
+                  <NameCon UId="35" Name="en" />
+                </Wire>
+                <Wire UId="45">
+                  <NameCon UId="34" Name="out" />
+                  <IdentCon UId="26" />
+                </Wire>
+                <Wire UId="46">
+                  <IdentCon UId="27" />
+                  <NameCon UId="35" Name="in1" />
+                </Wire>
+                <Wire UId="47">
+                  <IdentCon UId="28" />
+                  <NameCon UId="35" Name="in2" />
+                </Wire>
+                <Wire UId="48">
+                  <NameCon UId="35" Name="eno" />
+                  <NameCon UId="36" Name="en" />
+                </Wire>
+                <Wire UId="49">
+                  <NameCon UId="35" Name="out" />
+                  <IdentCon UId="29" />
+                </Wire>
+                <Wire UId="50">
+                  <IdentCon UId="30" />
+                  <NameCon UId="36" Name="in1" />
+                </Wire>
+                <Wire UId="51">
+                  <IdentCon UId="31" />
+                  <NameCon UId="36" Name="in2" />
+                </Wire>
+                <Wire UId="52">
+                  <NameCon UId="36" Name="out" />
+                  <IdentCon UId="32" />
                 </Wire>
               </Wires>
             </FlgNet>

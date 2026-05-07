@@ -92,65 +92,250 @@
                     <Component Name="wynik" />
                   </Symbol>
                 </Access>
-                <Part Name="Div" UId="30">
+                <Access Scope="GlobalVariable" UId="30">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z1" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="31">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik2" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="32">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="33">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z1" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="34">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z2" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="35">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="36">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z1" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="37">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z2" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="38">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="39">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z1" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="40">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z2" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="41">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="42">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z1" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="43">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="z2" />
+                  </Symbol>
+                </Access>
+                <Access Scope="GlobalVariable" UId="44">
+                  <Symbol>
+                    <Component Name="Dzieleniedb" />
+                    <Component Name="wynik" />
+                  </Symbol>
+                </Access>
+                <Part Name="Div" UId="45">
                   <AutomaticTyped Name="SrcType" />
                 </Part>
-                <Part Name="Mul" UId="31">
+                <Part Name="Mul" UId="46">
                   <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
                   <AutomaticTyped Name="SrcType" />
                 </Part>
-                <Part Name="Sub" UId="32">
+                <Part Name="Sub" UId="47">
+                  <AutomaticTyped Name="SrcType" />
+                </Part>
+                <Part Name="Sub" UId="48">
+                  <AutomaticTyped Name="SrcType" />
+                </Part>
+                <Part Name="Div" UId="49">
+                  <AutomaticTyped Name="SrcType" />
+                </Part>
+                <Part Name="Div" UId="50">
+                  <AutomaticTyped Name="SrcType" />
+                </Part>
+                <Part Name="Div" UId="51">
+                  <AutomaticTyped Name="SrcType" />
+                </Part>
+                <Part Name="Div" UId="52">
                   <AutomaticTyped Name="SrcType" />
                 </Part>
               </Parts>
               <Wires>
-                <Wire UId="33">
+                <Wire UId="53">
                   <Powerrail />
-                  <NameCon UId="30" Name="en" />
+                  <NameCon UId="45" Name="en" />
                 </Wire>
-                <Wire UId="34">
+                <Wire UId="54">
                   <IdentCon UId="21" />
-                  <NameCon UId="30" Name="in1" />
+                  <NameCon UId="45" Name="in1" />
                 </Wire>
-                <Wire UId="35">
+                <Wire UId="55">
                   <IdentCon UId="22" />
-                  <NameCon UId="30" Name="in2" />
+                  <NameCon UId="45" Name="in2" />
                 </Wire>
-                <Wire UId="36">
-                  <NameCon UId="30" Name="eno" />
-                  <NameCon UId="31" Name="en" />
+                <Wire UId="56">
+                  <NameCon UId="45" Name="eno" />
+                  <NameCon UId="46" Name="en" />
                 </Wire>
-                <Wire UId="37">
-                  <NameCon UId="30" Name="out" />
+                <Wire UId="57">
+                  <NameCon UId="45" Name="out" />
                   <IdentCon UId="23" />
                 </Wire>
-                <Wire UId="38">
+                <Wire UId="58">
                   <IdentCon UId="24" />
-                  <NameCon UId="31" Name="in1" />
+                  <NameCon UId="46" Name="in1" />
                 </Wire>
-                <Wire UId="39">
+                <Wire UId="59">
                   <IdentCon UId="25" />
-                  <NameCon UId="31" Name="in2" />
+                  <NameCon UId="46" Name="in2" />
                 </Wire>
-                <Wire UId="40">
-                  <NameCon UId="31" Name="eno" />
-                  <NameCon UId="32" Name="en" />
+                <Wire UId="60">
+                  <NameCon UId="46" Name="eno" />
+                  <NameCon UId="47" Name="en" />
                 </Wire>
-                <Wire UId="41">
-                  <NameCon UId="31" Name="out" />
+                <Wire UId="61">
+                  <NameCon UId="46" Name="out" />
                   <IdentCon UId="26" />
                 </Wire>
-                <Wire UId="42">
+                <Wire UId="62">
                   <IdentCon UId="27" />
-                  <NameCon UId="32" Name="in1" />
+                  <NameCon UId="47" Name="in1" />
                 </Wire>
-                <Wire UId="43">
+                <Wire UId="63">
                   <IdentCon UId="28" />
-                  <NameCon UId="32" Name="in2" />
+                  <NameCon UId="47" Name="in2" />
                 </Wire>
-                <Wire UId="44">
-                  <NameCon UId="32" Name="out" />
+                <Wire UId="64">
+                  <NameCon UId="47" Name="eno" />
+                  <NameCon UId="48" Name="en" />
+                </Wire>
+                <Wire UId="65">
+                  <NameCon UId="47" Name="out" />
                   <IdentCon UId="29" />
+                </Wire>
+                <Wire UId="66">
+                  <IdentCon UId="30" />
+                  <NameCon UId="48" Name="in1" />
+                </Wire>
+                <Wire UId="67">
+                  <IdentCon UId="31" />
+                  <NameCon UId="48" Name="in2" />
+                </Wire>
+                <Wire UId="68">
+                  <NameCon UId="48" Name="eno" />
+                  <NameCon UId="49" Name="en" />
+                </Wire>
+                <Wire UId="69">
+                  <NameCon UId="48" Name="out" />
+                  <IdentCon UId="32" />
+                </Wire>
+                <Wire UId="70">
+                  <IdentCon UId="33" />
+                  <NameCon UId="49" Name="in1" />
+                </Wire>
+                <Wire UId="71">
+                  <IdentCon UId="34" />
+                  <NameCon UId="49" Name="in2" />
+                </Wire>
+                <Wire UId="72">
+                  <NameCon UId="49" Name="eno" />
+                  <NameCon UId="50" Name="en" />
+                </Wire>
+                <Wire UId="73">
+                  <NameCon UId="49" Name="out" />
+                  <IdentCon UId="35" />
+                </Wire>
+                <Wire UId="74">
+                  <IdentCon UId="36" />
+                  <NameCon UId="50" Name="in1" />
+                </Wire>
+                <Wire UId="75">
+                  <IdentCon UId="37" />
+                  <NameCon UId="50" Name="in2" />
+                </Wire>
+                <Wire UId="76">
+                  <NameCon UId="50" Name="eno" />
+                  <NameCon UId="51" Name="en" />
+                </Wire>
+                <Wire UId="77">
+                  <NameCon UId="50" Name="out" />
+                  <IdentCon UId="38" />
+                </Wire>
+                <Wire UId="78">
+                  <IdentCon UId="39" />
+                  <NameCon UId="51" Name="in1" />
+                </Wire>
+                <Wire UId="79">
+                  <IdentCon UId="40" />
+                  <NameCon UId="51" Name="in2" />
+                </Wire>
+                <Wire UId="80">
+                  <NameCon UId="51" Name="eno" />
+                  <NameCon UId="52" Name="en" />
+                </Wire>
+                <Wire UId="81">
+                  <NameCon UId="51" Name="out" />
+                  <IdentCon UId="41" />
+                </Wire>
+                <Wire UId="82">
+                  <IdentCon UId="42" />
+                  <NameCon UId="52" Name="in1" />
+                </Wire>
+                <Wire UId="83">
+                  <IdentCon UId="43" />
+                  <NameCon UId="52" Name="in2" />
+                </Wire>
+                <Wire UId="84">
+                  <NameCon UId="52" Name="out" />
+                  <IdentCon UId="44" />
                 </Wire>
               </Wires>
             </FlgNet>
